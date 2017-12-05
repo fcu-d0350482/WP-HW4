@@ -4,24 +4,22 @@
 <title>兩段式下拉選單</title>
 </head>
 <body>
-<Form name="myForm">
-<h2>JavaScript Arrays</h2>
+<Form>
+	<h2>JavaScript Arrays</h2>
 
-<p>請選擇學院:</p>
-<select id="collegelist" onChange="changecollege()">
-</select>
-<BR>
+	<p>請選擇學院:</p>
+	<select id="collegelist" onChange="changecollege()">
+	</select>
+	<BR>
 
-<p>請選擇學系:</p>
-<select id="departmentlist">
-</select>
-<BR>
+	<p>請選擇學系:</p>
+	<select id="departmentlist">
+	</select>
+	<BR>
 
 <script>
 	var college=["請選擇學院","商學院","工學院","建設學院","金融學院","建築專業學院","國際科技與管理學院","資電學院","人文社會學院","理學院","經營管理學院","跨領域設計學院","跨科系學習"];
 	var inner;
-	
-	
 	
 	for(count=0;count<college.length;count++){
 		inner +='<option value="'+count+'">'+college[count]+'</option>'
@@ -44,62 +42,62 @@
 		var inner1;
 		
 		if(document.getElementById("collegelist").value=="1"){
-		for(count=0;count<array1.length;a++){
+			for(count=0;count<array1.length;count++){
 			inner1+='<option value="'+count+'">'+array1[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="2"){
-		for(count=0;count<array2.length;a++){
+			for(count=0;count<array2.length;count++){
 			inner1+='<option value="'+count+'">'+array2[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="3"){
-		for(count=0;count<array3.length;a++){
+			for(count=0;count<array3.length;count++){
 			inner1+='<option value="'+count+'">'+array3[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="4"){
-		for(count=0;count<array4.length;a++){
+			for(count=0;count<array4.length;count++){
 			inner1+='<option value="'+count+'">'+array4[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="5"){
-		for(count=0;count<array5.length;a++){
+			for(count=0;count<array5.length;count++){
 			inner1+='<option value="'+count+'">'+array5[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="6"){
-		for(count=0;count<array6.length;a++){
+			for(count=0;count<array6.length;count++){
 			inner1+='<option value="'+count+'">'+array6[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="7"){
-		for(count=0;count<array7.length;a++){
+			for(count=0;count<array7.length;count++){
 			inner1+='<option value="'+count+'">'+array7[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="8"){
-		for(count=0;count<array8.length;a++){
+			for(count=0;count<array8.length;count++){
 			inner1+='<option value="'+count+'">'+array8[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="9"){
-		for(count=0;count<array9.length;a++){
+			for(count=0;count<array9.length;count++){
 			inner1+='<option value="'+count+'">'+array9[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="10"){
-		for(count=0;count<array10.length;a++){
+			for(count=0;count<array10.length;count++){
 			inner1+='<option value="'+count+'">'+array10[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="11"){
-		for(count=0;count<array11.length;a++){
+			for(count=0;count<array11.length;count++){
 			inner1+='<option value="'+count+'">'+array11[count]+'</option>'
 			}
 		}
 		if(document.getElementById("collegelist").value=="12"){
-		for(count=0;count<array12.length;a++){
+			for(count=0;count<array12.length;count++){
 			inner1+='<option value="'+count+'">'+array12[count]+'</option>'
 			}
 		}
